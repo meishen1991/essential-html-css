@@ -1,5 +1,33 @@
-/* 
-your CSS rules and font imports should go here 
-delete this comment, add the import directives for your fonts
-and add the CSS rules as described in the challenge
-*/
+@import url(http://fonts.googleapis.com/css?family=Raleway; font-weight: 300);
+@import url(http://fonts.googleapis.com/css?family=Lato|Raleway;font-weight:400);
+
+
+#{ font-family:Raleway, Helvetica Neue, Helvetica, sans-serif;
+   font-weight:300;
+   font-size:18px;
+
+}
+
+body{background-size:100% 100%;
+      background:url( "essential-html-css/img/background.jpg");
+      background-attachment:fixed;
+}
+
+a { 
+	color:#0000AA;
+     text-decoration: none;
+     }
+
+ a:hover, a:focus{color:#0000EE;}    
+
+h6{font-size:300%;
+     margin:0px;}
+
+h3{font-color:#505050;
+   font-size:150%;} 
+
+
+
+
+
+
