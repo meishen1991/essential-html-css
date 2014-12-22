@@ -1,30 +1,94 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway; font-weight: 300);
+@import url(http://fonts.googleapis.com/css?family=Raleway;font-weight:300);
 @import url(http://fonts.googleapis.com/css?family=Lato|Raleway;font-weight:400);
 
 
-#{ font-family:Raleway, Helvetica Neue, Helvetica, sans-serif;
-   font-weight:300;
-   font-size:18px;
+body { 
+	 font-family:'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	 font-weight: 300;
+	 font-size: 18px;
+	 background-image:url('../img/background.jpg');
+
+     background-size: 100% 100%;
+     background-attachment: fixed;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+a:hover, a:focus {
+	color: #0000EE;
+}
+
+h1, h2,h3 { 
+	font-family:'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+ h1{font-size: 300%;
+   margin: 0;
+   }
+
+h2,h3{font-color:#505050;}
+
+h2{font-size: 150%;}
+
+h3{font-size: 125%;}
+
+main {
+	   margin-top:20px;
+	   margin-bottom:20px;
+	   margin-right: 20px;
+	   margin-left: 30%;
+	   background: url('../img/ricepaper_v3.png');
+	   opacity: 0.9;
+}
+
+header{padding:1em;
+	   background-color: #FA5A0F;
+	   bottom-border: 5px;
+	   border-color:#EA4A00;
+	   color: #FFFFFF;
+}
+
+#tag {font-size: 120%;
+      color: #EEEEEE;
+      margin: 0;
 
 }
 
-body{background-size:100% 100%;
-      background:url( "essential-html-css/img/background.jpg");
-      background-attachment:fixed;
+
+#general-info{
+	   padding:1em;
+	}
+
+#Menu{padding: 1em;
+	  background-color: red=207 green=205 blue=140;
+	  opacity: 0.5;
+
+}	
+
+dt{font-weight: 400;}
+
+dd{font-size: 80%;
+    font-family: italic;
+    margin-left: 1em;
+    margin-bottom: 1em; }
+
+
+#About-us{padding:1em;
+
 }
 
-a { 
-	color:#0000AA;
-     text-decoration: none;
-     }
+footer{padding:1em;
+       background-color: #FC892F;
+       border-top: 5px;
+       color:#EC791F;
+       font-size: 80%;
+       text-align: right;
+}
 
- a:hover, a:focus{color:#0000EE;}    
-
-h6{font-size:300%;
-     margin:0px;}
-
-h3{font-color:#505050;
-   font-size:150%;} 
 
 
 
